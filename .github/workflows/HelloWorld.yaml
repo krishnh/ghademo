@@ -1,0 +1,19 @@
+name: Hello World
+on : workflow_dispatch
+jobs:
+ build:
+   runs-on: ubuntu-latest
+   steps:
+    - name: Build step
+      run: "you are building it"
+ test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test Phase 
+      run: "This will execute the tests"
+ deploy:
+    runs-on: ubuntu-latest
+    steps:
+     - name: deploy the app
+       run: "This would deploy"
+      
