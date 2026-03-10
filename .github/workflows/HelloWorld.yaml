@@ -17,6 +17,6 @@ jobs:
       run: echo "you are building it"
 
     - name: variable name
-      run: echo "the variable name is:" ${{vars.MYNAME}}
+      run: echo "the variable name is:" ${{vars.MY_NAME}}
 
      
