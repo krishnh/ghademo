@@ -19,4 +19,7 @@ jobs:
     - name: variable name
       run: echo "the variable name is:" ${{vars.MY_NAME}}
 
+    - name: variable name
+      run: echo "the secret name is:" ${{secrets.MY_SECRET}}   
+
      
